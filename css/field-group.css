@@ -92,6 +92,21 @@
 
 
 
+.postbox#thesis_title_tag,
+.postbox#thesis_meta_description,
+.postbox#thesis_meta_keywords,
+.postbox#thesis_meta_robots,
+.postbox#thesis_canonical_link,
+.postbox#thesis_html_body,
+.postbox#thesis_post_content,
+.postbox#thesis_post_image,
+.postbox#thesis_post_thumbnail,
+.postbox#thesis_redirect {
+	display: none;
+}
+
+
+
 /*---------------------------------------------------------------------------------------------
 *
 *  Table

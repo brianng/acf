@@ -107,6 +107,16 @@ $options = apply_filters('acf/field_group/get_options', array(), $post->ID);
 					'categories'		=>	__("Categories", 'acf'),
 					'tags'				=>	__("Tags", 'acf'),
 					'send-trackbacks'	=>	__("Send Trackbacks", 'acf'),
+					'thesis_title_tag'	=>	__("Thesis Title Tag", 'acf'),
+					'thesis_meta_description'	=>	__("Thesis Meta Description", 'acf'),
+					'thesis_meta_keywords'	=>	__("Thesis Meta Keywords", 'acf'),
+					'thesis_meta_robots'	=>	__("Thesis Meta Robots", 'acf'),
+					'thesis_canonical_link'	=>	__("Thesis Canonical URL", 'acf'),
+					'thesis_html_body'	=>	__("Thesis Custom Body Class", 'acf'),
+					'thesis_post_content'	=>	__("Thesis Custom “Read More” Text", 'acf'),
+					'thesis_post_image'	=>	__("Thesis Post Image", 'acf'),
+					'thesis_post_thumbnail'	=>	__("Thesis Thumbnail", 'acf'),
+					'thesis_redirect'	=>	__("Thesis 301 Redirect", 'acf'),
 				)
 			));
 			

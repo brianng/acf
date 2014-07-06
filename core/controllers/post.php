@@ -391,6 +391,46 @@ class acf_controller_post
 		{
 			$html .= '#trackbacksdiv, #screen-meta label[for=trackbacksdiv-hide] {display: none;} ';
 		}
+		if( in_array('thesis_title_tag',$options['hide_on_screen']) )
+		{
+			$html .= '#thesis_title_tag {display: none;} ';
+		}
+		if( in_array('thesis_meta_description',$options['hide_on_screen']) )
+		{
+			$html .= '#thesis_meta_description {display: none;} ';
+		}
+		if( in_array('thesis_meta_keywords',$options['hide_on_screen']) )
+		{
+			$html .= '#thesis_meta_keywords {display: none;} ';
+		}
+		if( in_array('thesis_meta_robots',$options['hide_on_screen']) )
+		{
+			$html .= '#thesis_meta_robots {display: none;} ';
+		}
+		if( in_array('thesis_canonical_link',$options['hide_on_screen']) )
+		{
+			$html .= '#thesis_canonical_link {display: none;} ';
+		}
+		if( in_array('thesis_html_body',$options['hide_on_screen']) )
+		{
+			$html .= '#thesis_html_body {display: none;} ';
+		}
+		if( in_array('thesis_post_content',$options['hide_on_screen']) )
+		{
+			$html .= '#thesis_post_content {display: none;} ';
+		}
+		if( in_array('thesis_post_image',$options['hide_on_screen']) )
+		{
+			$html .= '#thesis_post_image {display: none;} ';
+		}
+		if( in_array('thesis_post_thumbnail',$options['hide_on_screen']) )
+		{
+			$html .= '#thesis_post_thumbnail {display: none;} ';
+		}
+		if( in_array('thesis_redirect',$options['hide_on_screen']) )
+		{
+			$html .= '#thesis_redirect {display: none;} ';
+		}
 		
 				
 		return $html;
